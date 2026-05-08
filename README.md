@@ -14,28 +14,4 @@
 - Light Social
 - Premium Module
 
-## How to Run Locally
 
-```bash
-npm install
-npm run dev
-```
-
-## How to Build
-
-```bash
-npm run build
-```
-
-## Deploy on Vercel
-
-1. 将整个项目上传到 GitHub Repo。
-2. 打开 Vercel，用 GitHub 登录。
-3. Add New Project → Import Git Repository。
-4. 选择本项目，保持默认配置：
-   - Framework Preset: Vite
-   - Build Command: npm run build
-   - Output Directory: dist
-5. 点击 Deploy。
-
-部署成功后，Vercel 会生成可访问的 Live Demo 链接。
